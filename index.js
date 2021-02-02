@@ -697,7 +697,7 @@ _*Processing Sukses #XyZ BOT*_`
                         let courir = ['jne', 'pos', 'jnt', 'sicepat', 'tiki', 'anteraja', 'wahana', 'ninja', 'lion', 'lek'];
                         let chkKurir = courir.includes(kurir.toLowerCase());
                         if (chkKurir === true) {
-                            const apikeys = () => {
+                            const apikeys = ( ) => {
                                 const ran = Math.floor(Math.random() * 3);
                                 switch (ran) {
                                     case 0:
